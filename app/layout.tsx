@@ -1,7 +1,9 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import localFont from 'next/font/local'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const bruno = localFont({ src: './font/BrunoAce-Regular.woff2', variable: '--font-bruno' })
 
 export const metadata = {
   title: 'Create Next App',
@@ -15,7 +17,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${bruno.variable} font-sans bg-almost-white`}>
+        <div className="max-w-screen-xl mx-auto">
+          <Header />
+          {children}
+          <Footer />
+        </div>
+      </body>
     </html>
   )
 }
