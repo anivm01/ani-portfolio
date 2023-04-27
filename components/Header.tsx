@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
     return (
-        <header>
+        <header className="max-w-screen-xl mx-auto">
             <nav>
                 <ul className="hidden md:flex gap-x-4 justify-end p-4">
                     <li>

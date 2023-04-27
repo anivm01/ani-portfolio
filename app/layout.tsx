@@ -18,11 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${bruno.variable} font-sans bg-almost-white`}>
-        <div className="max-w-screen-xl mx-auto">
           <Header />
           {children}
           <Footer />
-        </div>
       </body>
     </html>
   )
