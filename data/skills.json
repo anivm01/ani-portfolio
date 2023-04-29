@@ -1,0 +1,99 @@
+[
+    {
+        "skill":"JavaScript",
+        "src": "/icons/javascript.svg"
+    },
+    {
+        "skill":"React.js",
+        "src":"/icons/react.svg"
+
+    },
+    {
+        "skill":"Node.js",
+        "src":"/icons/node.svg"
+    },
+    {
+        "skill":"HTML",
+        "src": "/icons/html.svg"
+    },
+    {
+        "skill":"CSS",
+        "src": "/icons/css.svg"
+    },
+    {
+        "skill":"Sass",
+        "src":"icons/sass.svg"
+    },
+    {
+        "skill":"Git",
+        "src":"/icons/git.svg"
+    },
+    {
+        "skill":"GitHub",
+        "src": "/icons/github.svg"
+    },
+    {
+        "skill":"GitLab",
+        "src": "/icons/gitlab.svg"
+    },
+    {
+        "skill":"Express",
+        "src": "/icons/express.svg"
+    },
+    {
+        "skill":"MySql",
+        "src": "/icons/mysql.svg"
+    }, 
+    {
+        "skill":"Knex.js",
+        "src": "/icons/knex.svg"
+    },
+    {
+        "skill":"TypeScript",
+        "src": "/icons/typescript.svg"
+    },
+    {
+        "skill":"Next.js",
+        "src": "/icons/next.svg"
+    },
+    {
+        "skill":"Tailwind.css",
+        "src": "/icons/tailwind.svg"
+    },
+    {
+        "skill":"Figma",
+        "src": "/icons/figma.svg"
+    },
+    {
+        "skill":"Adobe Illustrator",
+        "src": "/icons/illustrator.svg"
+    },
+    {
+        "skill":"Adobe Photoshop",
+        "src": "/icons/photoshop.svg"
+    },
+    {
+        "skill":"Digital Ocean",
+        "src": "/icons/digital-ocean.svg"
+    },
+    {
+        "skill":"Ubuntu",
+        "src": "/icons/ubuntu.svg"
+    },
+    {
+        "skill":"NGINX",
+        "src": "/icons/nginx.svg"
+    },
+    {
+        "skill":"npm",
+        "src": "/icons/npm.svg"
+    },
+    {
+        "skill":"JSON",
+        "src": "/icons/json.svg"
+    },
+    {
+        "skill":"JWT",
+        "src": "/icons/jwt.svg"
+    }
+]

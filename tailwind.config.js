@@ -5,6 +5,7 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./node_modules/tw-elements/dist/js/**/*.js"
   ],
   theme: {
     extend: {
@@ -14,7 +15,8 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        sans: ['var(--font-bruno)', ...fontFamily.sans],
+        mono: ['var(--font-bruno)', ...fontFamily.mono],
+        sans: ['var(--font-nunito)', ...fontFamily.sans],
       },
       colors: {
         "almost-white": "#f3f3f3",
@@ -24,5 +26,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tw-elements/dist/plugin.cjs")],
 }
