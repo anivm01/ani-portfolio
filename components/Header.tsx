@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header className="max-w-screen-xl mx-auto">
             <nav>
-                <ul className="hidden md:flex gap-x-4 justify-end p-4">
+                <ul className="hidden md:flex gap-x-4 justify-end p-4 items-baseline">
                     <li>
                         <Link className="p-4 text-ani-indigo" href="/">Home</Link>
                     </li>
@@ -19,7 +19,7 @@ const Header = () => {
                         <Link className="p-4 text-ani-indigo" href="/blog">Blog</Link>
                     </li>
                     <li>
-                        <Link className="p-4 text-ani-indigo" href="/">Resume</Link>
+                        <Link className="p-4 text-ani-indigo flex gap-4 items-baseline" href="/"><span>Resume</span><Image width={"20"} height={"20"} src="/icons/download.svg" alt="download icon" /></Link>
                     </li>
                 </ul>
             </nav>
