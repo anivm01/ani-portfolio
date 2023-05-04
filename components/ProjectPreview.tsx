@@ -10,19 +10,19 @@ const ProjectPreview = (props: ProjectMetadata) => {
             <Link href={`/projects/${props.slug}`}>
                 <h2 className=" text-ani-indigo hover:underline text-lg mb-4">{props.title}</h2>
             </Link>
-            <Image width={500} height={500} src={`${props.image}`} alt={`${props.title}`} />
-            <div className="flex justify-around text-center gap-6">
+            <Image width={800} height={450} src={`${props.image}`} alt={`${props.title}`} />
+            <div className="flex justify-around text-center gap-6 text-sm md:text-base">
                 <Link className="flex flex-col items-center" href={"/"}>
                     <Image src="/icons/demo.svg" alt="demo icon" width={"40"} height={"40"} />
-                    <span className="text-base">Demo</span>
+                    <span>Demo</span>
                 </Link>
                 <Link className="flex flex-col items-center" href={`/projects/${props.slug}`}>
                     <Image src="/icons/details.svg" alt="details icon" width={"40"} height={"40"} />
-                    <span className="text-base">Details</span>
+                    <span>Details</span>
                 </Link>
                 <Link className="flex flex-col items-center" href={"/"}>
                     <Image src="/icons/source-code.svg" alt="github icon" width={"40"} height={"40"} />
-                    <span className="text-base">Code</span>
+                    <span>Code</span>
                 </Link>
             </div>
 

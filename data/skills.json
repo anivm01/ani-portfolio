@@ -22,7 +22,7 @@
     },
     {
         "skill":"Sass",
-        "src":"icons/sass.svg"
+        "src":"/icons/sass.svg"
     },
     {
         "skill":"Git",

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1105 737">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#New_Gradient_Swatch_1-3);
+      }
+
+      .cls-2 {
+        fill: url(#New_Gradient_Swatch_1);
+      }
+
+      .cls-3 {
+        fill: url(#New_Gradient_Swatch_1-2);
+      }
+    </style>
+    <linearGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" x1="552.5" y1="0" x2="552.5" y2="176" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fed135"/>
+      <stop offset="1" stop-color="#fd3f10"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_1-2" data-name="New Gradient Swatch 1" y1="280.5" y2="456.5" xlink:href="#New_Gradient_Swatch_1"/>
+    <linearGradient id="New_Gradient_Swatch_1-3" data-name="New Gradient Swatch 1" y1="561" y2="737" xlink:href="#New_Gradient_Swatch_1"/>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-2" y="0" width="1105" height="176" rx="88" ry="88"/>
+      <rect class="cls-3" y="280.5" width="1105" height="176" rx="88" ry="88"/>
+      <rect class="cls-1" y="561" width="1105" height="176" rx="88" ry="88"/>
+    </g>
+  </g>
+</svg>
