@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Nunito } from '@next/font/google'
+import { Nunito } from 'next/font/google'
 const nunito = Nunito({ subsets: ['latin'], variable: '--font-nunito' })
 
 export default function AboutMe() {
@@ -11,8 +11,8 @@ export default function AboutMe() {
                     <p className="my-4">Hi, I'm Ani, a creative software developer with a passion for problem-solving. As a former ESL teacher in Japan, I bring a unique perspective to the world of software development.</p>
                     <p className="my-4">My past experiences as an ESL teacher have greatly influenced my approach to software development and problem-solving. Living in Japan taught me the value of self-reliance and the importance of adapting to new and unfamiliar environments. Working with people with limited English proficiency taught me the significance of clear and frequent communication in order to achieve mutual understanding and successful outcomes. Being a part of the ex-pat community in Japan gave me a deep appreciation for diversity and the importance of understanding and navigating cultural differences in order to achieve common goals. These experiences have helped me to develop a strong sense of empathy, flexibility, and adaptability that I bring to my work as a software developer.</p>
                 </div>
-                <div className="grow-1 md:w-1/4 bg-gradient-to-r to-ani-red from-ani-yellow mx-auto my-4">
-                    <Image src="/images/ani-mihaylova.jpg" width={"200"} height={"200"} alt="Ani Mihaylova" className="mx-auto object-contain md:w-full mix-blend-overlay md:grow" />
+                <div className="grow-1 md:w-1/4 mx-auto my-4">
+                    <Image src="/images/ani-mihaylova.jpg" width={"200"} height={"200"} alt="Ani Mihaylova" className="mx-auto object-contain md:w-full md:grow" />
                 </div>
             </div>
             <div className={`flex gap-8 flex-col md:flex-row items-center ${nunito.variable} font-sans`}>

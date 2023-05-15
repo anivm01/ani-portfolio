@@ -3,7 +3,7 @@ import skills from "../../../data/skills.json"
 import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import getProjectMetadata from "../../../components/getProjectMetadata";
-import { Nunito } from '@next/font/google'
+import { Nunito } from 'next/font/google'
 import Image from "next/image";
 const nunito = Nunito({ subsets: ['latin'], variable: '--font-nunito' })
 

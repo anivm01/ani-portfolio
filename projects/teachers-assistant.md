@@ -7,8 +7,6 @@ code_url: "https://github.com/anivm01?tab=repositories&q=teachers-assistant&type
 video_id: "gz_zGBFW4Yw"
 ---
 
-See the live site: [teachersassistant.site](https://teachersassistant.site)!
-
 "Teacher's Assistant" is an web application that I developed as my Capstone Project during my BrainStation coding bootcamp. Inspired by my experience as a former teacher, I set out to create a solution that simplifies the process of creating teaching materials while offering an intuitive and user-friendly experience for educators and parents.
 
 ![images/ta-home-preview](/images/ta-home-preview.jpg)

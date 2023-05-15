@@ -6,6 +6,7 @@ import { Modal } from "./Modal";
 import Video from "./Video";
 import { useState } from "react";
 
+
 const ProjectPreview = (props: ProjectMetadata) => {
     const [isOpen, setIsOpen] = useState(false)
     return (

@@ -2,12 +2,15 @@
 title: "Holy Trinity Macedono-Bulgarian Church Website"
 subtitle: "Modernized church webiste with custom CMS"
 tech_stack: "JavaScript, React.js, Node.js, HTML, CSS, Sass, Express, MySql, Knex.js, JWT, Digital Ocean"
-featured_image: "/images/holy-trinity-preview-mockups.jpg"
+featured_image: "/images/holy-trinity-preview.jpg"
 code_url: "https://github.com/anivm01?tab=repositories&q=holy-trinity&type=&language=&sort="
-video_id: ""
+video_id: "qkCV3iR7g1w"
 ---
 
 ### Description
+
+See the live site: [here](https://orca-app-gl9f4.ondigitalocean.app/)!
+(official domain name coming soon!)
 
 I was asked to create a modernized version of the Holy Trinity Macedono-Bulgarian Church website. Their website hadn't been updated since 2011 and few people ever opened it. Post-COVID the community had become more disconnected and they wanted a way to bring the community back together. Also during COVID, the priest started broadcasting the services online and wanted a way to do that through the website in a more worship-friendly environment than YouTube (where he was currently streaming them).
 
