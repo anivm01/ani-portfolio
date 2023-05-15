@@ -3,7 +3,9 @@ import "tw-elements/dist/css/tw-elements.min.css";
 import localFont from 'next/font/local'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import Head from 'next/head';
 const bruno = localFont({ src: './font/BrunoAce-Regular.woff2', variable: '--font-bruno' })
+
 
 export const metadata = {
   title: 'Ani Portfolio',
@@ -17,10 +19,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <meta property="og:image" content="/images/open-graph-image-ani.jpg" />
+      </Head>
       <body className={`${bruno.variable} font-mono bg-almost-white`}>
-          <Header />
-          {children}
-          <Footer />
+        <Header />
+        {children}
+        <Footer />
       </body>
     </html>
   )
