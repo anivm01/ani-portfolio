@@ -2,17 +2,18 @@
 title: "Holy Trinity Macedono-Bulgarian Church Website"
 subtitle: "Modernized church webiste with custom CMS"
 tech_stack: "JavaScript, React.js, Node.js, HTML, CSS, Sass, Express, MySql, Knex.js, JWT, Digital Ocean"
-image: "/images/holy-trinity-preview-mockups.jpg"
+featured_image: "/images/holy-trinity-preview-mockups.jpg"
+code_url: "https://github.com/anivm01?tab=repositories&q=holy-trinity&type=&language=&sort="
+video_id: ""
 ---
 
 ### Description
 
 I was asked to create a modernized version of the Holy Trinity Macedono-Bulgarian Church website. Their website hadn't been updated since 2011 and few people ever opened it. Post-COVID the community had become more disconnected and they wanted a way to bring the community back together. Also during COVID, the priest started broadcasting the services online and wanted a way to do that through the website in a more worship-friendly environment than YouTube (where he was currently streaming them).
 
-To achieve these goals, I built a new website using modern design principles and the latest web technologies. The new website features a clean and simple design that is easy to navigate, with clear calls to action that encourage visitors to explore the site and engage with the church community. It featured dynamic content types including live broadcasts, weekly announcements, events, community news and obituaries as well as static infomational content such as donations and hall rental information. 
+To achieve these goals, I built a new website using modern design principles and the latest web technologies. The new website features a clean and simple design that is easy to navigate, with clear calls to action that encourage visitors to explore the site and engage with the church community. It featured dynamic content types including live broadcasts, weekly announcements, events, community news and obituaries as well as static infomational content such as donations and hall rental information.
 
 Overall, the new website has helped to revitalize the Holy Trinity Macedono-Bulgarian Church's online presence and bring the community closer together, both in-person and online. Through this project, I gained valuable experience in designing and building websites that meet the unique needs of a religious community. I am proud to have contributed to the church's mission and to have helped them reach a wider audience through the power of technology.
-
 
 ### Design Process:
 
@@ -26,7 +27,7 @@ Another feature that I added was the ability to post obituaries in a style remin
 
 ### Development Process:
 
-![images/ht-design](/images/ht-development.jpg)
+![images/ht-development](/images/ht-development.jpg)
 
 To achieve the goals set during the design process, I chose to create two frontend applications, one for the public and one for the administrators. The admin application is essentially a content management system where the priest and the board of trustees can upload new content. The public site is accessible by anyone and displays information based on time of request, always showing the most up-to-date, published content.
 
@@ -38,11 +39,12 @@ Overall, the development process involved creating a modern and user-friendly we
 
 ### Challenges Faced:
 
-During the development process, I faced a few challenges that I had to overcome. One of the primary challenges was making the website bilingual. The community is split between English and Bulgarian speakers and the site had to be able to accomodate both. This meant that all the different post types had to be be able to be stored in two languages in the database, which required careful planning and organization. At the same time not every post type was going to have both languages so I had to incorporate conditional rendering based on whether one or both languages were used. 
+During the development process, I faced a few challenges that I had to overcome. One of the primary challenges was making the website bilingual. The community is split between English and Bulgarian speakers and the site had to be able to accomodate both. This meant that all the different post types had to be be able to be stored in two languages in the database, which required careful planning and organization. At the same time not every post type was going to have both languages so I had to incorporate conditional rendering based on whether one or both languages were used.
 
-Another challenge I faced was incorporating an optional image gallery for the community news articles. It also needed to be conditionally rendered in both languages as some images only applied to one language or the other. This required additional coding to ensure that the image gallery was displaying correctly. 
+Another challenge I faced was incorporating an optional image gallery for the community news articles. It also needed to be conditionally rendered in both languages as some images only applied to one language or the other. This required additional coding to ensure that the image gallery was displaying correctly.
 
-Additionally, both the public and the admin sites had to be extremely easy to use and navigate. This was a significant challenge, as many of the people who would be using the website were older and not as comfortable with modern technologies. To address this challenge, I focused on creating a clean and simple design, with intuitive navigation and clear labeling, that would be easy for everyone to use. 
+Additionally, both the public and the admin sites had to be extremely easy to use and navigate. This was a significant challenge, as many of the people who would be using the website were older and not as comfortable with modern technologies. To address this challenge, I focused on creating a clean and simple design, with intuitive navigation and clear labeling, that would be easy for everyone to use.
 
 ### Impact
+
 The modernization of the Holy Trinity Macedono-Bulgarian Church website had a significant impact on the community. The website now provides a central hub for information about the church and its activities, making it easier for members of the community to stay connected and informed. The addition of the live broadcast feature has made it possible for people who are unable to attend services in person to still participate and feel connected to their church community. The weekly announcement and events features have given community members a reason to check in regularly and stay up to date on what's happening. Finally, the community news feature and obituaries feature have provided new opportunities for community members to share stories and updates, creating a greater sense of belonging and engagement. Overall, the new website has helped to bring the community closer together and has strengthened their connection to their church and to each other.

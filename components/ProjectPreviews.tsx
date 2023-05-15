@@ -3,7 +3,7 @@ import ProjectPreview from "./ProjectPreview";
 
 const ProjectPreviews = () => {
     const projectMetadata = getProjectMetadata();
-    const featuredProjectsMetadata = [projectMetadata[2], projectMetadata[1], projectMetadata[0] ]
+    const featuredProjectsMetadata = [projectMetadata[1], projectMetadata[3], projectMetadata[2]]
     const projectPreviews = featuredProjectsMetadata.map((project) => (
         <ProjectPreview key={project.slug} {...project} />
     ));

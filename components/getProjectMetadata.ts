@@ -15,8 +15,10 @@ const getProjectMetadata = (): ProjectMetadata[] => {
       title: matterResult.data.title,
       tech_stack: matterResult.data.tech_stack,
       subtitle: matterResult.data.subtitle,
-      image: matterResult.data.image,
+      featured_image: matterResult.data.featured_image,
+      code_url: matterResult.data.code_url,
       slug: fileName.replace(".md", ""),
+      video_id: matterResult.data.video_id
     };
   });
 

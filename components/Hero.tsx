@@ -22,8 +22,7 @@ const Hero = () => {
                         <h2 className="w-full text-xl cursor-default">Creative Fullstack Developer </h2>
                         <h2 className="w-full text-lg cursor-default">JavaScript | React | Node</h2>
                     </div>
-                    <button className="rounded-full bg-white text-ani-indigo px-4 py-2 flex gap-4 w-fit"><span>Resume</span><Image width={"20"} height={"20"} src="/icons/download.svg" alt="download icon" /></button>
-
+                    <a className="rounded-full px-4 py-2 text-xs md:text-base bg-white text-ani-indigo flex gap-4 items-center w-fit" href="/resume/ani-mihaylova-resume.pdf" download><span>Resume</span><Image width={"20"} height={"20"} src="/icons/download.svg" alt="download icon" /></a>
                 </div>
             </div>
         </section>
