@@ -1,6 +1,8 @@
 import Image from "next/image";
 import skills from "../data/skills.json"
 import Link from "next/link";
+
+//in order to make the about text more readable I've imported a secondary font
 import { Nunito } from 'next/font/google'
 const nunito = Nunito({ subsets: ['latin'], variable: '--font-nunito' })
 

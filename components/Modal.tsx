@@ -1,5 +1,4 @@
 import { Dialog } from "@headlessui/react";
-import { useRef } from "react";
 import React, { ReactNode } from 'react';
 
 type ModalProps = {

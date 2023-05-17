@@ -4,6 +4,8 @@ import localFont from 'next/font/local'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Head from 'next/head';
+
+//this is the primary font applied to the body and inherited by all its children
 const bruno = localFont({ src: './font/BrunoAce-Regular.woff2', variable: '--font-bruno' })
 
 

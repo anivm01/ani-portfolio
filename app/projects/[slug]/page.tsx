@@ -7,6 +7,9 @@ import { Nunito } from 'next/font/google'
 import Image from "next/image";
 const nunito = Nunito({ subsets: ['latin'], variable: '--font-nunito' })
 
+//this function uses the fs library to read the contents of the project file based on it's name ("slug")
+//it also uses the gray-matter library to return the content of those files 
+//in a way that's readable by the Markdown component
 const getProjectContent = (slug: string) => {
     const folder = "projects/";
     const file = `${folder}${slug}.md`;
@@ -14,6 +17,9 @@ const getProjectContent = (slug: string) => {
     const matterResult = matter(content);
     return matterResult;
 };
+
+//this function ensures that next.js will generate a static page for each project at build time
+//rather than generating it dynamically when someone is using the site (just makes the site faster)
 export const generateStaticParams = async () => {
     const projects = getProjectMetadata();
     return projects.map((project) => ({
@@ -21,9 +27,15 @@ export const generateStaticParams = async () => {
     }));
 };
 
+//this is the actual page component
 const ProjectPage = (props: any) => {
+    //here we use the "slug" from the url to find the particular project we want to display
     const slug = props.params.slug;
+    //and get its content using the function we wrote earlier in this file
     const project = getProjectContent(slug);
+
+    //this is where we use the tech stack described in the metadata of the project 
+    //and filter through the skills.json in the data folder to display only the skills relevant to this project
     const techStack = skills.filter(skill => {
         return project.data.tech_stack.includes(skill.skill)
     })
