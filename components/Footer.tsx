@@ -12,6 +12,7 @@ const Footer = () => {
                 <div className="flex gap-4 items-center justify-center">
                     <a target="_blank" href="https://www.linkedin.com/in/anivm01/"><Image src="/icons/linkedIn.svg" alt="linked in icon" width={"40"} height={"40"} /></a>
                     <a target="_blank" href="https://github.com/anivm01"><Image src="/icons/github-white.svg" alt="github icon" width={"40"} height={"40"} /></a>
+                    <a target="_blank" href="mailto:anivm.webdev@gmail.com"><Image src="/icons/email.svg" alt="email in icon" width={"40"} height={"40"} /></a>
                 </div>
             </div>
         </footer>

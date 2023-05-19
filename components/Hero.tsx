@@ -11,9 +11,7 @@ const Hero = () => {
                     <div className="flex my-4 gap-4 md:self-end md:my-0">
                         <a target="_blank" href="https://www.linkedin.com/in/anivm01/"><Image src="/icons/linkedIn.svg" alt="linked in icon" width={"40"} height={"40"} /></a>
                         <a target="_blank" href="https://github.com/anivm01"><Image src="/icons/github-white.svg" alt="github icon" width={"40"} height={"40"} /></a>
-                        {/* <button type="button" onClick={() => router.push('mailto:anivm.webdev@gmail.com')}>
-                            <Image src="/icons/email.svg" alt="email in icon" width={"40"} height={"40"} />
-                        </button> */}
+                        <a target="_blank" href="mailto:anivm.webdev@gmail.com"><Image src="/icons/email.svg" alt="email in icon" width={"40"} height={"40"} /></a>
                     </div>
                 </div>
                 <div className="text-white flex flex-col gap-8 justify-center">
