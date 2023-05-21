@@ -1,10 +1,11 @@
 ---
 title: "InStock"
-subtitle: "Inventory Management System"
+subtitle: "Inventory Management System - BrainStation Project"
 tech_stack: "JavaScript, React.js, Node.js, HTML, CSS, Sass, Express, MySql, Knex.js"
 featured_image: "/images/instock-preview-mockups.jpg"
 code_url: "https://github.com/anivm01?tab=repositories&q=instock&type=&language=&sort="
 video_id: "qonYFH2XiqE"
+order: 5
 ---
 
 Project Description: InStock - Full-Stack React Inventory Management System

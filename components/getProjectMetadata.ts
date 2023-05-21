@@ -18,7 +18,8 @@ const getProjectMetadata = (): ProjectMetadata[] => {
       featured_image: matterResult.data.featured_image,
       code_url: matterResult.data.code_url,
       slug: fileName.replace(".md", ""),
-      video_id: matterResult.data.video_id
+      video_id: matterResult.data.video_id,
+      order: matterResult.data.order
     };
   });
 

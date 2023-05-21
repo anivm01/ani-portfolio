@@ -5,6 +5,7 @@ import matter from "gray-matter";
 import getProjectMetadata from "../../../components/getProjectMetadata";
 import { Nunito } from 'next/font/google'
 import Image from "next/image";
+import Video from "@/components/Video";
 const nunito = Nunito({ subsets: ['latin'], variable: '--font-nunito' })
 
 //this function uses the fs library to read the contents of the project file based on it's name ("slug")
@@ -61,6 +62,7 @@ const ProjectPage = (props: any) => {
             <article className="prose mx-auto w-full">
                 <Markdown className={`${nunito.variable} font-sans w-full`}>{project.content}</Markdown>
             </article>
+            <Video video_id={project.data.video_id} />
         </div>
     );
 };

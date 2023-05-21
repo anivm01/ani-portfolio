@@ -1,4 +1,5 @@
 import { Nunito } from 'next/font/google'
+import Link from 'next/link';
 const nunito = Nunito({ subsets: ['latin'], variable: '--font-nunito' })
 
 const MyExperience = () => {
@@ -31,6 +32,7 @@ const MyExperience = () => {
                     <li>Demonstrated exceptional communication and interpersonal skills, building trust and rapport with students from diverse backgrounds and skill levels, and collaborating effectively with colleagues to create a cohesive and dynamic learning experience</li>
                 </ul>
             </div>
+            <Link className="rounded-full px-4 py-2 text-xs md:text-base bg-ani-indigo text-white" href="/resume">Full Resume</Link>
         </section>
     )
 }

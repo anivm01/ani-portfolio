@@ -11,7 +11,7 @@ const ProjectPreview = (props: ProjectMetadata) => {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <div
-            className="p-4 rounded-lg bg-white flex flex-col justify-around gap-8 items-center text-center"
+            className="p-4 rounded-lg bg-white flex flex-col justify-around gap-4 items-center text-center"
         >
             {isOpen && <Modal
                 onClose={() => {
@@ -21,7 +21,8 @@ const ProjectPreview = (props: ProjectMetadata) => {
                 <Video video_id={props.video_id} />
             </Modal>}
             <Link href={`/projects/${props.slug}`}>
-                <h2 className=" text-ani-indigo hover:underline text-lg mb-4">{props.title}</h2>
+                <h2 className="text-ani-indigo hover:underline text-lg mb-2">{props.title}</h2>
+                <h3 className="text-ani-indigo hover:underline text-sm mb-2">{props.subtitle}</h3>
             </Link>
             <Image width={800} height={450} src={`${props.featured_image}`} alt={`${props.title}`} />
             <div className="flex justify-around text-center gap-6 text-sm md:text-base">

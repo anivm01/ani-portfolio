@@ -6,4 +6,5 @@ export interface ProjectMetadata {
   code_url: string;
   slug: string;
   video_id: string;
+  order: number;
 }

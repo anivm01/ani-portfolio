@@ -14,15 +14,15 @@ const Header = () => {
                 </button>
                 <ul className=
                     // "hidden md:flex gap-x-4 justify-end p-4 items-baseline"
-                    {`${menuIsOpen ? "absolute top-12 right-0 flex flex-col gap-4 bg-almost-white" : "hidden"} md:flex gap-x-4 justify-end p-4 items-baseline`}
+                    {`${menuIsOpen ? "absolute top-12 right-0 flex flex-col gap-4 bg-almost-white p-4" : "hidden"} md:flex gap-x-4 justify-end items-baseline`}
                     onClick={() => setMenuIsOpen(false)}
                 >
                     <li>
                         <Link className="p-4 text-ani-indigo" href="/">Home</Link>
                     </li>
-                    {/* <li>
+                    <li>
                         <Link className="p-4 text-ani-indigo" href="/projects">Projects</Link>
-                    </li> */}
+                    </li>
                     <li>
                         <Link className="p-4 text-ani-indigo" href="/about-me">About Me</Link>
                     </li>
@@ -30,8 +30,11 @@ const Header = () => {
                         <Link className="p-4 text-ani-indigo" href="/blog">Blog</Link>
                     </li> */}
                     <li>
-                        <a className="p-4 text-ani-indigo flex gap-4 items-baseline" href="/resume/ani-mihaylova-resume.pdf" download><span>Resume</span><Image width={"20"} height={"20"} src="/icons/download.svg" alt="download icon" /></a>
+                        <Link className="p-4 text-ani-indigo" href="/resume">Resume</Link>
                     </li>
+                    {/* <li>
+                        <a className="p-4 text-ani-indigo flex gap-4 items-baseline" href="/resume/ani-mihaylova-resume.pdf" download><span>Resume</span><Image width={"20"} height={"20"} src="/icons/download.svg" alt="download icon" /></a>
+                    </li> */}
                 </ul>
             </nav>
         </header>

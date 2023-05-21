@@ -6,7 +6,11 @@ const ProjectPreviews = () => {
     const projectMetadata = getProjectMetadata();
 
     //pick out the featured projects and store them in a separate array
-    const featuredProjectsMetadata = [projectMetadata[1], projectMetadata[3], projectMetadata[2]]
+    let featuredProjectsMetadata = projectMetadata.filter(single => {
+        return single.order === 5 || single.order === 6 || single.order === 7
+    })
+
+    featuredProjectsMetadata = featuredProjectsMetadata.sort((a, b) => { return b.order - a.order })
 
     //feed the data from the featuredProjectsMetadata array into the ProjectPreview component
     //using map to do it for each project in the array.

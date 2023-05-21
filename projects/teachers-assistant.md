@@ -5,6 +5,7 @@ tech_stack: "JavaScript, React.js, Node.js, HTML, CSS, Sass, Express, MySql, Kne
 featured_image: "/images/ta-preview-mockups.jpg"
 code_url: "https://github.com/anivm01?tab=repositories&q=teachers-assistant&type=&language=&sort="
 video_id: "gz_zGBFW4Yw"
+order: 6
 ---
 
 "Teacher's Assistant" is an web application that I developed as my Capstone Project during my BrainStation coding bootcamp. Inspired by my experience as a former teacher, I set out to create a solution that simplifies the process of creating teaching materials while offering an intuitive and user-friendly experience for educators and parents.

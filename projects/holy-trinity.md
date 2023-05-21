@@ -1,10 +1,11 @@
 ---
 title: "Holy Trinity Macedono-Bulgarian Church Website"
-subtitle: "Modernized church webiste with custom CMS"
+subtitle: "Modernized bilingual church webiste"
 tech_stack: "JavaScript, React.js, Node.js, HTML, CSS, Sass, Express, MySql, Knex.js, JWT, Digital Ocean"
 featured_image: "/images/holy-trinity-preview.jpg"
 code_url: "https://github.com/anivm01?tab=repositories&q=holy-trinity&type=&language=&sort="
 video_id: "qkCV3iR7g1w"
+order: 7
 ---
 
 ### Description

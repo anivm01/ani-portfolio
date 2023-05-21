@@ -24,6 +24,46 @@ module.exports = {
         "ani-red": "#FD3F10",
         "ani-yellow": "#FED135",
       },
+      keyframes: {
+        "text-focus-in": {
+          "0%": {
+            filter: "blur(12px)",
+            opacity: "0",
+          },
+          "100%": {
+            filter: "blur(0px)",
+            opacity: "1",
+          },
+        },
+        "jello-vertical": {
+          "0%": {
+            transform: "scale3d(1, 1, 1)",
+          },
+          "30%": {
+            transform: "scale3d(0.75, 1.25, 1)",
+          },
+          "40%": {
+            transform: "scale3d(1.25, 0.75, 1)",
+          },
+          "50%": {
+            transform: "scale3d(0.85, 1.15, 1)",
+          },
+          "65%": {
+            transform: "scale3d(1.05, 0.95, 1)",
+          },
+          "75%": {
+            transform: "scale3d(0.95, 1.05, 1)",
+          },
+          "100%": {
+            transform: "scale3d(1, 1, 1)",
+          },
+        },
+      },
+      animation: {
+        "text-focus-in":
+          "text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both",
+        "jello-vertical": "jello-vertical 0.9s both",
+      },
     },
   },
   plugins: [
