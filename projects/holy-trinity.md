@@ -10,8 +10,7 @@ order: 7
 
 ### Description
 
-See the live site: [here](https://orca-app-gl9f4.ondigitalocean.app/)!
-(official domain name coming soon!)
+See the live site: [here](https://ourholytrinitymbc.com)!
 
 I was asked to create a modernized version of the Holy Trinity Macedono-Bulgarian Church website. Their website hadn't been updated since 2011 and few people ever opened it. Post-COVID the community had become more disconnected and they wanted a way to bring the community back together. Also during COVID, the priest started broadcasting the services online and wanted a way to do that through the website in a more worship-friendly environment than YouTube (where he was currently streaming them).
 
