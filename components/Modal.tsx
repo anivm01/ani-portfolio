@@ -6,8 +6,6 @@ type ModalProps = {
     children: ReactNode;
 };
 
-
-
 export const Modal: React.FC<ModalProps> = ({ onClose, children }) => {
 
     return (
